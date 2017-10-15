@@ -101,17 +101,4 @@ def levelOrder(root):
 			q.append(root.right)
 
 
-mytree= BSTNode(10)
-mytree.insert(4)
-mytree.insert(5)
-mytree.insert(11)
-mytree.insert(9)
-mytree.insert(15)
 
-print "height:",mytree.height()
-print "size:", mytree.size()
-print "minVal", mytree.minVal()
-print "maxVal", mytree.maxVal()
-print "level", levelOrder(mytree)
-delete(mytree)
-print "level", levelOrder(mytree)
